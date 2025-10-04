@@ -1,0 +1,8 @@
+Meeting minutes 4/10/2024
+-	Proposed research question: relationship between model complexity and potential trade-offs for generalisation performance on in-distribution and out-of-distribution data
+-	We decided to delimit in distribution and out of distribution temporally (performance in year x for models trained only in year y).
+-	Following algorithms chosen: Multivariate Linear regression, Gradient Boosted Tree, Graph Attention Network with Spatial-Temporal Features
+-	Michelle is assigned to get out of distribution data for another year
+-	Kezia assigned to building tabular features
+-	Oliver assigned to building graph features
+-	Next meeting agreed for the Tuesday the 7th of October
