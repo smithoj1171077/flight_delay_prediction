@@ -1,6 +1,6 @@
 import pandas as pd
 from datetime import datetime
-from meteostat import Point, Hourly
+from meteostat import Point, Daily
 
 import os
 BASE_PATH = ""
@@ -9,7 +9,7 @@ GEOLOCATIONS = os.path.join(BASE_PATH,"airports_geolocation.csv")
 geo_df = pd.read_csv(GEOLOCATIONS)
  
 start = datetime(2023, 1, 1)
-end = datetime(2023, 1, 31, 23, 59) 
+end = datetime(2023, 1, 1, 23, 59) 
 
 weather_list = []
 
@@ -20,7 +20,7 @@ for i, row in geo_df.iterrows():
 
     location = Point(lat, lon)
 
-    data = Hourly(location, start, end)
+    data = Daily(location, start, end)
     df = data.fetch()
     df["IATA_CODE"] = code
 
