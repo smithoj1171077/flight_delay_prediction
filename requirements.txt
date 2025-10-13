@@ -1,0 +1,6 @@
+textblob
+bs4
+pandas
+numpy
+scikit-learn
+sklearn-pandas

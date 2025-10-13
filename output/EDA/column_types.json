@@ -1,0 +1,367 @@
+[
+  {
+    "column": "listing_id",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0    10803.0\n1    12936.0\n2    41836.0\n3    43429.0\nName: listing_id, dtype: float64"
+  },
+  {
+    "column": "last_scraped",
+    "type": "<class 'str'>",
+    "examples": "0    2025-06-11\n1    2025-06-11\n2    2025-06-11\n3    2025-06-11\nName: last_scraped, dtype: object"
+  },
+  {
+    "column": "name",
+    "type": "<class 'str'>",
+    "examples": "0    Room in Deco Apartment, Brunswick East\n1    St Kilda 1BR+BEACHSIDE+BALCONY+WIFI+AC\n2         CLOSE TO CITY & MELBOURNE AIRPORT\n3        Tranquil Javanese Studio and Pond!\nName: name, dtype: object"
+  },
+  {
+    "column": "description",
+    "type": "<class 'str'>",
+    "examples": "0    A large air conditioned room with firm queen s...\n1    RIGHT IN THE HEART OF ST KILDA! It doesn't get...\n2    Easy to travel from and to the Airport; quiet ...\n3    No service/Cleaning Fees, EV Charger, Study th...\nName: description, dtype: object"
+  },
+  {
+    "column": "neighborhood_overview",
+    "type": "<class 'str'>",
+    "examples": "0    This hip area is a crossroads between two grea...\n1    A stay at our apartment means you can enjoy so...\n2    The neighbours are quiet and friendly,  please...\n3    Oakleigh is one of the most convenient and div...\nName: neighborhood_overview, dtype: object"
+  },
+  {
+    "column": "host_id",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0     38901.0\n1     50121.0\n2    182833.0\n3    189684.0\nName: host_id, dtype: float64"
+  },
+  {
+    "column": "host_name",
+    "type": "<class 'str'>",
+    "examples": "0         Lindsay\n1    The A2C Team\n2           Diana\n3           Allan\nName: host_name, dtype: object"
+  },
+  {
+    "column": "host_since",
+    "type": "<class 'str'>",
+    "examples": "0    2009-09-16\n1    2009-10-31\n2    2010-07-27\n3    2010-08-03\nName: host_since, dtype: object"
+  },
+  {
+    "column": "host_location",
+    "type": "<class 'str'>",
+    "examples": "0        Melbourne, Australia\n1        Melbourne, Australia\n2        Venus Bay, Australia\n3    Oakleigh East, Australia\nName: host_location, dtype: object"
+  },
+  {
+    "column": "host_about",
+    "type": "<class 'str'>",
+    "examples": "0    As an artist working in animation and video I ...\n1                                                  NaN\n2    We all travellers on this planet, happy to mee...\n3    Hosting since 2010 on 4 sites plus Co-hosting ...\nName: host_about, dtype: object"
+  },
+  {
+    "column": "host_response_time",
+    "type": "<class 'str'>",
+    "examples": "0    within a few hours\n1                   NaN\n2                   NaN\n3        within an hour\nName: host_response_time, dtype: object"
+  },
+  {
+    "column": "host_response_rate",
+    "type": "<class 'str'>",
+    "examples": "0     86%\n1     NaN\n2     NaN\n3    100%\nName: host_response_rate, dtype: object"
+  },
+  {
+    "column": "host_acceptance_rate",
+    "type": "<class 'str'>",
+    "examples": "0    90%\n1    NaN\n2    NaN\n3    99%\nName: host_acceptance_rate, dtype: object"
+  },
+  {
+    "column": "host_is_superhost",
+    "type": "<class 'str'>",
+    "examples": "0    t\n1    f\n2    f\n3    t\nName: host_is_superhost, dtype: object"
+  },
+  {
+    "column": "host_neighbourhood",
+    "type": "<class 'str'>",
+    "examples": "0    Brunswick\n1     St Kilda\n2          NaN\n3          NaN\nName: host_neighbourhood, dtype: object"
+  },
+  {
+    "column": "host_listings_count",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0     1.0\n1    10.0\n2     3.0\n3     6.0\nName: host_listings_count, dtype: float64"
+  },
+  {
+    "column": "host_total_listings_count",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0     1.0\n1    20.0\n2     3.0\n3    37.0\nName: host_total_listings_count, dtype: float64"
+  },
+  {
+    "column": "host_verifications",
+    "type": "<class 'str'>",
+    "examples": "0                  ['email', 'phone']\n1    ['email', 'phone', 'work_email']\n2    ['email', 'phone', 'work_email']\n3                  ['email', 'phone']\nName: host_verifications, dtype: object"
+  },
+  {
+    "column": "host_has_profile_pic",
+    "type": "<class 'str'>",
+    "examples": "0    t\n1    t\n2    t\n3    t\nName: host_has_profile_pic, dtype: object"
+  },
+  {
+    "column": "host_identity_verified",
+    "type": "<class 'str'>",
+    "examples": "0    t\n1    t\n2    t\n3    t\nName: host_identity_verified, dtype: object"
+  },
+  {
+    "column": "neighbourhood",
+    "type": "<class 'str'>",
+    "examples": "0    Neighborhood highlights\n1    Neighborhood highlights\n2    Neighborhood highlights\n3    Neighborhood highlights\nName: neighbourhood, dtype: object"
+  },
+  {
+    "column": "neighbourhood_cleansed",
+    "type": "<class 'str'>",
+    "examples": "0        Moreland\n1    Port Phillip\n2         Darebin\n3          Monash\nName: neighbourhood_cleansed, dtype: object"
+  },
+  {
+    "column": "neighbourhood_group_cleansed",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0   NaN\n1   NaN\n2   NaN\n3   NaN\nName: neighbourhood_group_cleansed, dtype: float64"
+  },
+  {
+    "column": "latitude",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0   -37.76606\n1   -37.85999\n2   -37.69761\n3   -37.89983\nName: latitude, dtype: float64"
+  },
+  {
+    "column": "longitude",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0    144.97951\n1    144.97662\n2    145.00066\n3    145.11579\nName: longitude, dtype: float64"
+  },
+  {
+    "column": "property_type",
+    "type": "<class 'str'>",
+    "examples": "0    Private room in rental unit\n1             Entire rental unit\n2           Private room in home\n3             Entire rental unit\nName: property_type, dtype: object"
+  },
+  {
+    "column": "room_type",
+    "type": "<class 'str'>",
+    "examples": "0       Private room\n1    Entire home/apt\n2       Private room\n3    Entire home/apt\nName: room_type, dtype: object"
+  },
+  {
+    "column": "accommodates",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0    2.0\n1    2.0\n2    2.0\n3    2.0\nName: accommodates, dtype: float64"
+  },
+  {
+    "column": "bathrooms",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0    1.0\n1    NaN\n2    NaN\n3    1.0\nName: bathrooms, dtype: float64"
+  },
+  {
+    "column": "bathrooms_text",
+    "type": "<class 'str'>",
+    "examples": "0    1 shared bath\n1           1 bath\n2    1 shared bath\n3           1 bath\nName: bathrooms_text, dtype: object"
+  },
+  {
+    "column": "bedrooms",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0    1.0\n1    1.0\n2    NaN\n3    1.0\nName: bedrooms, dtype: float64"
+  },
+  {
+    "column": "beds",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0    1.0\n1    NaN\n2    NaN\n3    1.0\nName: beds, dtype: float64"
+  },
+  {
+    "column": "amenities",
+    "type": "<class 'str'>",
+    "examples": "0    [\"Room-darkening shades\", \"Kitchen\", \"BBQ gril...\n1    [\"Kitchen\", \"Fire extinguisher\", \"Patio or bal...\n2    [\"Kitchen\", \"Heating\", \"Smoking allowed\", \"Was...\n3    [\"Kitchen\", \"Stainless steel single oven\", \"Pr...\nName: amenities, dtype: object"
+  },
+  {
+    "column": "price",
+    "type": "<class 'str'>",
+    "examples": "0     $54.00\n1        NaN\n2        NaN\n3    $128.00\nName: price, dtype: object"
+  },
+  {
+    "column": "minimum_nights",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0    5.0\n1    3.0\n2    7.0\n3    2.0\nName: minimum_nights, dtype: float64"
+  },
+  {
+    "column": "maximum_nights",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0      28.0\n1      14.0\n2     365.0\n3    1125.0\nName: maximum_nights, dtype: float64"
+  },
+  {
+    "column": "minimum_minimum_nights",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0    5.0\n1    3.0\n2    7.0\n3    2.0\nName: minimum_minimum_nights, dtype: float64"
+  },
+  {
+    "column": "maximum_minimum_nights",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0    5.0\n1    3.0\n2    7.0\n3    2.0\nName: maximum_minimum_nights, dtype: float64"
+  },
+  {
+    "column": "minimum_maximum_nights",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0      28.0\n1      14.0\n2    1125.0\n3    1125.0\nName: minimum_maximum_nights, dtype: float64"
+  },
+  {
+    "column": "maximum_maximum_nights",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0      28.0\n1      14.0\n2    1125.0\n3    1125.0\nName: maximum_maximum_nights, dtype: float64"
+  },
+  {
+    "column": "minimum_nights_avg_ntm",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0    5.0\n1    3.0\n2    7.0\n3    2.0\nName: minimum_nights_avg_ntm, dtype: float64"
+  },
+  {
+    "column": "maximum_nights_avg_ntm",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0      28.0\n1      14.0\n2    1125.0\n3    1125.0\nName: maximum_nights_avg_ntm, dtype: float64"
+  },
+  {
+    "column": "calendar_updated",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0   NaN\n1   NaN\n2   NaN\n3   NaN\nName: calendar_updated, dtype: float64"
+  },
+  {
+    "column": "has_availability",
+    "type": "<class 'str'>",
+    "examples": "0    t\n1    t\n2    t\n3    t\nName: has_availability, dtype: object"
+  },
+  {
+    "column": "availability_30",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0     6.0\n1     0.0\n2     0.0\n3    16.0\nName: availability_30, dtype: float64"
+  },
+  {
+    "column": "availability_60",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0    28.0\n1     0.0\n2     0.0\n3    26.0\nName: availability_60, dtype: float64"
+  },
+  {
+    "column": "availability_90",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0    58.0\n1     0.0\n2     0.0\n3    44.0\nName: availability_90, dtype: float64"
+  },
+  {
+    "column": "availability_365",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0    148.0\n1      0.0\n2      0.0\n3    165.0\nName: availability_365, dtype: float64"
+  },
+  {
+    "column": "calendar_last_scraped",
+    "type": "<class 'str'>",
+    "examples": "0    2025-06-11\n1    2025-06-11\n2    2025-06-11\n3    2025-06-11\nName: calendar_last_scraped, dtype: object"
+  },
+  {
+    "column": "number_of_reviews",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0    204.0\n1     42.0\n2    157.0\n3    269.0\nName: number_of_reviews, dtype: float64"
+  },
+  {
+    "column": "number_of_reviews_ltm",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0    14.0\n1     0.0\n2     0.0\n3    10.0\nName: number_of_reviews_ltm, dtype: float64"
+  },
+  {
+    "column": "number_of_reviews_l30d",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0    0.0\n1    0.0\n2    0.0\n3    3.0\nName: number_of_reviews_l30d, dtype: float64"
+  },
+  {
+    "column": "availability_eoy",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0    148.0\n1      0.0\n2      0.0\n3    103.0\nName: availability_eoy, dtype: float64"
+  },
+  {
+    "column": "number_of_reviews_ly",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0    18.0\n1     0.0\n2     0.0\n3    10.0\nName: number_of_reviews_ly, dtype: float64"
+  },
+  {
+    "column": "estimated_occupancy_l365d",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0    140.0\n1      0.0\n2      0.0\n3     60.0\nName: estimated_occupancy_l365d, dtype: float64"
+  },
+  {
+    "column": "estimated_revenue_l365d",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0    7560.0\n1       NaN\n2       NaN\n3    7680.0\nName: estimated_revenue_l365d, dtype: float64"
+  },
+  {
+    "column": "first_review",
+    "type": "<class 'str'>",
+    "examples": "0    2013-01-12\n1    2010-08-04\n2    2010-11-16\n3    2010-12-05\nName: first_review, dtype: object"
+  },
+  {
+    "column": "last_review",
+    "type": "<class 'str'>",
+    "examples": "0    2025-04-23\n1    2020-03-15\n2    2018-08-22\n3    2025-06-04\nName: last_review, dtype: object"
+  },
+  {
+    "column": "review_scores_rating",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0    4.57\n1    4.68\n2    4.71\n3    4.88\nName: review_scores_rating, dtype: float64"
+  },
+  {
+    "column": "review_scores_accuracy",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0    4.69\n1    4.78\n2    4.68\n3    4.90\nName: review_scores_accuracy, dtype: float64"
+  },
+  {
+    "column": "review_scores_cleanliness",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0    4.08\n1    4.71\n2    4.65\n3    4.94\nName: review_scores_cleanliness, dtype: float64"
+  },
+  {
+    "column": "review_scores_checkin",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0    4.77\n1    4.83\n2    4.89\n3    4.93\nName: review_scores_checkin, dtype: float64"
+  },
+  {
+    "column": "review_scores_communication",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0    4.74\n1    4.83\n2    4.83\n3    4.94\nName: review_scores_communication, dtype: float64"
+  },
+  {
+    "column": "review_scores_location",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0    4.71\n1    4.78\n2    4.39\n3    4.79\nName: review_scores_location, dtype: float64"
+  },
+  {
+    "column": "review_scores_value",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0    4.66\n1    4.66\n2    4.69\n3    4.86\nName: review_scores_value, dtype: float64"
+  },
+  {
+    "column": "license",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0   NaN\n1   NaN\n2   NaN\n3   NaN\nName: license, dtype: float64"
+  },
+  {
+    "column": "instant_bookable",
+    "type": "<class 'str'>",
+    "examples": "0    f\n1    f\n2    f\n3    f\nName: instant_bookable, dtype: object"
+  },
+  {
+    "column": "calculated_host_listings_count",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0     1.0\n1    10.0\n2     2.0\n3     3.0\nName: calculated_host_listings_count, dtype: float64"
+  },
+  {
+    "column": "calculated_host_listings_count_entire_homes",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0     0.0\n1    10.0\n2     0.0\n3     3.0\nName: calculated_host_listings_count_entire_homes, dtype: float64"
+  },
+  {
+    "column": "calculated_host_listings_count_private_rooms",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0    1.0\n1    0.0\n2    2.0\n3    0.0\nName: calculated_host_listings_count_private_rooms, dtype: float64"
+  },
+  {
+    "column": "calculated_host_listings_count_shared_rooms",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0    0.0\n1    0.0\n2    0.0\n3    0.0\nName: calculated_host_listings_count_shared_rooms, dtype: float64"
+  },
+  {
+    "column": "reviews_per_month",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0    1.35\n1    0.23\n2    0.89\n3    1.52\nName: reviews_per_month, dtype: float64"
+  },
+  {
+    "column": "new_price",
+    "type": "<class 'numpy.float64'>",
+    "examples": "0     54.0\n1      NaN\n2      NaN\n3    128.0\nName: new_price, dtype: float64"
+  }
+]
