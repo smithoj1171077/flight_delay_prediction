@@ -8,9 +8,12 @@ from sklearn.compose import ColumnTransformer
 from pathlib import Path
 
 UNINFORMATIVE_COLUMNS = [
-    'listing_url', 'scrape_id', 'host_url', 
-    'host_thumbnail_url', 'source', 'picture_url', 'host_picture_url'
+    'listing_url', 'scrape_id', 'host_url', "host_name",
+    'host_thumbnail_url', 'source', 'picture_url', 'host_picture_url', "neighbourhood"
 ]
+EMPTY_COLUMNS = {
+    'neighbourhood_group_cleansed', 'license', 'calendar_updated'
+}
 
 SPECIAL_IMPUTATIONS_MAPPING = {
     "host_response_time" : "response time not mentioned",

@@ -53,18 +53,19 @@ DTYPE_MAPPING={
         "first_review",
         "last_review"
     ],
-    "nominal": [
-        "host_name",
-        "host_location",
-        "host_is_superhost",
+    "location": [
+        "host_location", # split this into two columns, and find lon & lat for each column
         "host_neighbourhood",
+        "neighbourhood_cleansed" 
+    ],
+    "nominal": [
+        "host_response_time",
+        "room_type"
+    ],
+    "boolean": [
+        "host_is_superhost",
         "host_has_profile_pic",
         "host_identity_verified",
-        "neighbourhood",
-        "neighbourhood_cleansed",
-        "property_type",
-        "room_type",
-        "bathrooms_text",
         "has_availability",
         "instant_bookable"
     ],
@@ -72,6 +73,8 @@ DTYPE_MAPPING={
         "name",
         "description",
         "neighborhood_overview",
-        "host_about"
+        "host_about",
+        "bathrooms_text", # planning to split into numeric and text columns, tokenise text, then multihot
+        "property_type", # planning to tokenise text, then mutihot
     ]
 }
